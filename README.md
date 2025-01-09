@@ -1,8 +1,6 @@
 # Z2H
 
-This is an anonymous repository holding the source code and mice data for our paper "Zero-to-Hero: Knowledge-guided Active Learning for Interictal Epileptiform Discharges Detection in Unlabeled EEG Data".
-
-This repository is intended for review purposes only. Please do not use it for any other purposes, or redistribute it in any form. Thank you!
+This is an anonymous repository holding the source code and mice data, intended for the double-blind review of  our paper "Zero-to-Hero: Knowledge-guided Active Learning for Interictal Epileptiform Discharges Detection in Unlabeled EEG Data", submitted to the KDD'25 ADS track.
 
 ## Downloading the mice data
 To download the mice data, follow this [link](https://drive.google.com/file/d/1Lzo7PLL6PrHqdwgvzbmkK4TpBiIyDjoQ/view?usp=sharing).
