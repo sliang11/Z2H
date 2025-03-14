@@ -1,12 +1,12 @@
 # Z2H
 
-This is an anonymous repository holding the source code and mice data, intended for the double-blind review of  our paper "Zero-to-Hero: Knowledge-guided Active Learning for Interictal Epileptiform Discharges Detection in Unlabeled EEG Data", submitted to the KDD'25 ADS track.
+This is an anonymous repository holding the source code and mouse data, intended for the double-blind review of  our paper "Zero-to-Hero: Knowledge-guided Active Learning for IED Detection in Unlabeled EEG Data", submitted to the ECML-PKDD 2025.
 
 ## Downloading the mice data
 To download the mice data, follow this [link](https://drive.google.com/file/d/1Lzo7PLL6PrHqdwgvzbmkK4TpBiIyDjoQ/view?usp=sharing).
 
 ## Running the code
-Suppose you have unzipped the mice data into the same directory as the code, follow the steps below to run it.
+Suppose you have unzipped the mouse data into the same directory as the code, follow the steps below to run it.
 
 ### 1. Pre-compute the Nearest Neighbor (NN) distance matrices
 As a warmup routine, run the following to pre-compute the NN distances, which will be used in both Modules M1 and M2.
@@ -58,4 +58,7 @@ with open(fname, 'rb') as f:
   _, _, _, _, test_examples, test_labels = pickle.load(fname)
 ```
 
-(Note: In our experiments, we used the original authors' implementations of the iEDeal and WNG-TS-1DCNN core deep models. Due to the lack of explicit permission from the original authors, we are unable to post their implementations here. Please contact the original authors or follow the code links in their papers to gain access to the code.)
+Note: In our experiments, we used external implementations of the core models AiED, iEDeal and WNG-TS-1DCNN. Due to the lack of explicit permission from the original authors, we are unable to repost their implementations here. 
+
+For the implementation of AiED and iEDeal, see [https://github.com/qtwang/iEDeaL](https://github.com/qtwang/iEDeaL)
+For the implementation of WNG-TS-1DCNN, please contact Dr. Jialing Wang of Fudan Univesity at [jialinwang16@fudan.edu.cn](jialinwang16@fudan.edu.cn), who graciously gave us access to the source code.
