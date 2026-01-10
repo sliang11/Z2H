@@ -2,6 +2,10 @@
 
 This is a repository holding the source code and mouse data, intended for the single-blind review of our paper "Zero-to-Hero: A Knowledge-guided Unsupervised Active Learning Pipeline for EEG-based Detection of Interictal Epileptiform Discharges [Scalable Data Science]", submitted to the VLDB 2026.
 
+## Supplemental Materials
+
+Due to page limits, we were unable to include all experimental details and raw experimental results in our submitted manuscript. While we fully understand and respect the reviewers' right to judge our work solely on the basis of the submitted manuscript, to help better understand our work, we invite the reviewers to refer to **an extended version of our paper in the file `Z2H_extended_version.pdf`**, as well as the raw experimental results in `raw_results.xlsx`.
+
 ## Downloading the mice data
 To download the mice data, follow this [link](https://drive.google.com/file/d/1Lzo7PLL6PrHqdwgvzbmkK4TpBiIyDjoQ/view?usp=sharing).
 
