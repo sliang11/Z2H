@@ -66,4 +66,4 @@ Note: In our experiments, we used external implementations of the core models Ai
 
 For the implementation of AiED and iEDeal, see [https://github.com/qtwang/iEDeaL](https://github.com/qtwang/iEDeaL)
 
-For the implementation of WNG-TS-1DCNN, please contact Dr. Jialin Wang of Fudan Univesity at [jialinwang16@fudan.edu.cn](jialinwang16@fudan.edu.cn), who graciously gave us access to the source code.
+
