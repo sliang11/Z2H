@@ -61,9 +61,3 @@ fname = f'./data/{data_id}.pkl'
 with open(fname, 'rb') as f:
   _, _, _, _, test_examples, test_labels = pickle.load(fname)
 ```
-
-Note: In our experiments, we used external implementations of the core models AiED, iEDeal and WNG-TS-1DCNN. Due to the lack of explicit permission from the original authors, we are unable to repost their implementations here. 
-
-For the implementation of AiED and iEDeal, see [https://github.com/qtwang/iEDeaL](https://github.com/qtwang/iEDeaL)
-
-
