@@ -1,0 +1,100 @@
+{
+    "model": "res1d18",
+
+    "device": "cuda:0",
+
+    "checkpoint_filename": "model.pickle",
+    "checkpoint_filepath": "none",
+
+    "log_filename": "train.log",
+    "log_filepath": "none",
+
+    "default_conf_filename": "conf_aied.json",
+    "conf_filepath": "none",
+
+    "num_epoch": 100,
+
+    "train_positive_samples": "none",
+    "train_negative_samples": "none",
+    "validate_positive_samples": "none",
+    "validate_negative_samples": "none",
+
+    "size_train": 200000,
+    "size_val": 10000,
+    "batch_size": 256,
+
+    "dim_series": 768,
+    "num_input_channels": 5,
+    "num_class": 2,
+    "size_kernel": 3,
+    "num_resblock": 18,
+    "dim_latent": 768,
+    "num_latent_channels": 256,
+    "num_output_channels": 256,
+
+    "resblock_pre_activation": true,
+
+    "dilation_type": "exponential",
+    "dilation_cons": 1,
+    "dilation_base": 1,
+    "dilation_slope": 1,
+
+    "activation_conv": "relu",
+    "relu_slope": 1e-2,
+    "activation_linear": "lecuntanh",
+
+    "model_init": "lsuv",
+    "lsuv_size": "default",
+    "lsuv_mean": 0,
+    "lsuv_std": 1,
+    "lsuv_std_tol": 0.1,
+    "lsuv_maxiter": 10,
+    "lsuv_ortho": true,
+
+    "layernorm_type": "layernorm",
+    "layernorm_elementwise_affine": true,
+
+    "optim_type": "sgd",
+    "momentum": 0.9,
+    "lr_mode": "linear",
+    "lr_cons": 1e-3,
+    "lr_max": 1e-3,
+    "lr_min": 0,
+    "lr_everyk": 20,
+    "lr_ebase": 0.9,
+
+    "weightnorm_type": "none",
+    "weightnorm_dim": 0,
+
+    "wd_mode": "fix",
+    "wd_cons": 1e-4,
+    "wd_max": 1e-4,
+    "wd_min": 1e-8,
+
+    "adanorm_k": 0.1,
+    "adanorm_scale": 2,
+
+    "loss_function": "ce",
+    "ce_weights": "cvpr19",
+    "f_beta": 1,
+    "f_alpha": 1,
+    "num_training_negative_samples": -1,
+
+    "threshold": 0.5,
+    "float32_epsilon": 1e-7,
+
+    "refine_loss_function": "f1",
+    "refine_extra_iterations": 1,
+    "refine_bpfilter_iterations": "none",
+
+    "warmup": false,
+    "warmup_epochs": 3,
+
+    "normalize_type": "input",
+    "mu": 0,
+    "sigma": 1,
+
+    "sampling_period": 1,
+
+    "imbalance_expanding": "none"
+}
