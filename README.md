@@ -1,7 +1,7 @@
 # Z2H
 
 This is a repository holding the source code, mouse data as well as other supplemental mateirals, intended for the double-blind review of our paper *Zero-to-Hero: Knowledge-guided Unsupervised Active Learning for EEG-based Detection of
-Interictal Epileptiform Discharges*, submitted to the VLDB 2026.
+Interictal Epileptiform Discharges*, submitted to the ECML-PKDD 2026.
 
 ## Downloading the Source Code and Mouse Data
 Clone this repository to your local machine to download the source code and mouse data.
