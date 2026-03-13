@@ -1,6 +1,6 @@
 # Z2H
 
-This is a repository holding the source code, mouse data as well as other supplemental mateirals, intended for the double-blind review of our paper *Zero-to-Hero: Knowledge-guided Unsupervised Active Learning for EEG-based Detection of
+This is a repository holding the source code, mouse data as well as other supplemental materials, intended for the double-blind review of our paper *Zero-to-Hero: Knowledge-guided Unsupervised Active Learning for EEG-based Detection of
 Interictal Epileptiform Discharges*, submitted to the ECML-PKDD 2026.
 
 ## Downloading the Source Code and Mouse Data
@@ -23,5 +23,5 @@ python ./src/run_all.py [core_model_name] [data_id]
 
 where
 
-- `core_model_name` can be one of `AIED`, `iEDeal`, `IEDConformer`, `EEGPT`, `NeuroGPT`;
+- `core_model_name` can be one of `AIED`, `iEDeal`, `EEGPT`, `NeuroGPT`;
 - `data_id` can be one of `MO1`, `MO2`, `MO3`.
