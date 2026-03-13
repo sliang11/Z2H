@@ -4,7 +4,7 @@ This is a repository holding the source code, mouse data as well as other supple
 Interictal Epileptiform Discharges*, submitted to the ECML-PKDD 2026.
 
 ## Downloading the Source Code and Mouse Data
-Clone this repository to your local machine to download the source code and mouse data.
+Clone this repository to your local machine to download the source code. For the mouse data, please use the following link: <https://drive.google.com/drive/folders/1GxuUhCOPLus4ajAryUusTQFxGihkG5Kr?usp=sharing>.
 
 ## Downloading the Pretrained Parameters
 
